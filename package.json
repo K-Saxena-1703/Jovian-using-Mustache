@@ -1,0 +1,22 @@
+
+{
+  "name": "jovian-careers-express",
+  "version": "1.0.0",
+  "description": "Jovian Careers Site Built using Express JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "mustache-express": "^1.3.2",
+    "nodemailer": "^6.10.1",
+    "nodemon": "^2.0.22"
+  }
+}
